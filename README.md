@@ -11,6 +11,8 @@
 * Express
 * SQL
 * Git
+* Node.js
+* Markdown
 * Python
 * Selenium\
 И будет пополнятся и обновлятся.
