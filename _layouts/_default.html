@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    {% include head-custom.html %}
-    {% seo %}
   </head>
 
   <body>
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
+        <a id="a-title" href="_default.html">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
