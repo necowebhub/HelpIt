@@ -61,8 +61,36 @@
         <div class="right scroll-box">
           <section id="main_content">
             <p>
-              <strong>HTML</strong> (HyperText Markup Language, язык разметки гипертекста) — это система верстки, которая определяет, как и какие элементы должны располагаться на веб-странице. Информация на сайте, способ ее представления и оформления зависят исключительно от разработчика и тех целей, которые он перед собой ставит.
+              Чтобы браузер при отображении документа понимал, что имеет дело не с простым текстом, а с элементом форматирования и применяются теги. Общий синтаксис написания тегов следующий.
             </p>
+            <br>
+            <xmp>
+              <тег атрибут1="значение" атрибут2="значение"><br>
+              <тег атрибут1="значение" атрибут2="значение">...</тег>
+            </xmp>
+            <br><br>
+            <p>
+              Как видно из данного примера, теги бывают двух типов — одиночные и парные (контейнеры). Одиночный тег используется самостоятельно, а парный может включать внутри себя другие теги или текст. У тегов допустимы различные атрибуты, которые разделяются между собой пробелом. Впрочем, есть теги без всяких дополнительных атрибутов. Условно атрибуты можно подразделить на обязательные, они непременно должны присутствовать, и необязательные, их добавление зависит от цели применения тега.
+            </p>
+            <br>
+            <xmp>
+              <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+              "http://www.w3.org/TR/html4/strict.dtd">
+              <html>
+                <head>
+                  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+                  <title>Lorem ipsum</title>
+                </head>
+                <body>
+                  <p>Lorem ipsum dolor sit amet consectetuer cursus pede pellentesque 
+                  vitae pretium. Tristique mus at elit lobortis libero Sed vestibulum ut 
+                  eleifend habitasse. Quis Nam Mauris adipiscing Integer ligula dictum 
+                  sed at enim urna. Et scelerisque id et nibh dui tincidunt Curabitur faucibus 
+                  elit massa. Tincidunt et gravida Phasellus eget parturient faucibus tellus 
+                  at justo sollicitudin. Mi nulla ut adipiscing.</p>
+                </body>
+              </html>
+            </xmp>
           </section>
         </div>
       </main>
