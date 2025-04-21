@@ -16,7 +16,7 @@ a {
 .container {
     height: 100%;
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 10% 3% 77% 10%;
     grid-template-columns: 10% 90%; 
 }
 
@@ -27,6 +27,20 @@ a {
     align-items: center;
     justify-content: center;
     grid-column: span 2;
+    gap: 20%;
+}
+
+.themes_navigation {
+    background-color: #61ca61;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 2;
+}
+
+.themes_titles {
+    font-size: 30px;
 }
 
 .main {
@@ -37,17 +51,15 @@ a {
 
 .left {
     background-color: #293133;
-    border: black 2px solid;
     color: #ffffff;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     padding: 10px;
 }
 
 .right {
     background-color: #e7e7e7;
-    border: black 2px solid;
     color: black;
     display: flex;
     align-items: flex-start;
